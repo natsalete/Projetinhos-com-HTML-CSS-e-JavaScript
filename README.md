@@ -25,7 +25,7 @@ Cheguei ao final do Módulo 7: Integrei HTML com JavaScript, onde:
 
 ## EBAC Banking - Depósitos
 
-link: http://127.0.0.1:5500/EBAC%20Banking%20-%20Dep%C3%B3sitos/index.html
+link: https://natalia-ebac-banking-depositos.vercel.app/
 
 https://github.com/natsalete/Integracao-do-HTML-com-JavaScript/assets/135389319/db1417b4-d032-4b9e-9207-fdeaf339db9a
 
