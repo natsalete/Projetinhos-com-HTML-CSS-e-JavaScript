@@ -29,3 +29,8 @@ link: https://natalia-ebac-banking-depositos.vercel.app/
 
 https://github.com/natsalete/Integracao-do-HTML-com-JavaScript/assets/135389319/db1417b4-d032-4b9e-9207-fdeaf339db9a
 
+<hr>
+
+## Calculadora de Médias
+
+link:https://natalia-calculadora-de-media.vercel.app/
