@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  padding-top: 100px;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-bottom: 40px;
+}
+
+header img {
+  width: 50px;
+  margin-right: 16px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre a imagem e o campo de entrada */
+}
+
+form label img {
+  width: 24px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+form input[type="text"],
+form input[type="tel"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table td img {
+    height: 30px;
+}
+
+table th {
+  background-color: #f4f4f9;
+}
+
+@media (min-width: 600px) {
+  form {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .form-group {
+    flex: 1;
+  }
+
+  form button {
+    flex: 1;
+  }
+
+  table th,
+  table td {
+    text-align: center;
+  }
+}

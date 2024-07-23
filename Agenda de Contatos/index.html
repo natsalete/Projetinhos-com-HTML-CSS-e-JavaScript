@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./images/Phone.png" alt="telefone" />
+        <h1>Agenda de Contatos</h1>
+      </header>
+      <form action="" id="form-contatos">
+        <div class="form-group">
+          <label for="nome"><img src="./images/Profile.png" alt="perfil" /></label>
+          <input type="text" required placeholder="Nome do contato" id="nome-contato" />
+        </div>
+        <div class="form-group">
+          <label for="telefone"><img src="./images/Phone.png" alt="telefone" /></label>
+          <input type="tel" required placeholder="Telefone" name="telefone" id="telefone" />
+        </div>
+        <button type="submit">Cadastrar</button>
+      </form>
+      <table cellspacing="0">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Nome do contato</th>
+            <th>Telefone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- <td><img src="./images/Profile Circle.png" alt="perfil" /></td>
+            <td></td>
+            <td>(34) </td> -->
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
