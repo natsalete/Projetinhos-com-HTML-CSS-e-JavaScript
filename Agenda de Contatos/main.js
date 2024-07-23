@@ -14,18 +14,25 @@ function adicionaLinha() {
   const inputNomeContato = document.getElementById("nome-contato");
   const inputTelefone = document.getElementById("telefone");
 
-  nomes.push(inputNomeContato.value);
-  telefones.push(inputTelefone.value);
+  if (telefones.includes(inputTelefone.value)) {
+    alert(
+      `O telefone: ${inputTelefone.value} já está na sua lista de contatos!`
+    );
+  } else {
+    nomes.push(inputNomeContato.value);
+    telefones.push(inputTelefone.value);
 
-  let linha = "<tr>";
-  linha += `<td>${imgPerfil}</td>`;
-  linha += `<td>${inputNomeContato.value}</td>`;
-  linha += `<td>${inputTelefone.value}</td>`;
-  linha += `<td><button class="excluir-btn" onclick="excluirContato(${nomes.length - 1})">Excluir</button></td>`;
-  linha += "</tr>";
+    let linha = "<tr>";
+    linha += `<td>${imgPerfil}</td>`;
+    linha += `<td>${inputNomeContato.value}</td>`;
+    linha += `<td>${inputTelefone.value}</td>`;
+    linha += `<td><button class="excluir-btn" onclick="excluirContato(${
+      nomes.length - 1
+    })">Excluir</button></td>`;
+    linha += "</tr>";
 
-  linhas += linha;
-
+    linhas += linha;
+  }
   // Limpa os campos de entrada
   inputNomeContato.value = "";
   inputTelefone.value = "";
