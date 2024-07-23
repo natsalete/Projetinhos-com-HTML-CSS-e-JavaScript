@@ -35,12 +35,11 @@ https://github.com/natsalete/Integracao-do-HTML-com-JavaScript/assets/135389319/
 
 link:https://natalia-calculadora-de-media.vercel.app/
 
+
 <hr>
 
 ## Agenda de Contatos
 
 link: https://natalia-agenda-de-contatos.vercel.app/
 
-https://github.com/user-attachments/assets/6e51dd8f-2540-422d-827c-386bc169dfeb
-
-
+https://github.com/user-attachments/assets/22aac86d-ab7d-41a9-8941-4e46b01664bc
