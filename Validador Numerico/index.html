@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validador Numérico</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="img-fundo"></div>
+    <div class="container">
+      <img
+        src="./Imagens/MeninoEstudando.png"
+        alt="Aluno pensando na lição de casa"
+      />
+      <div class="containerForm">
+        <div class="img-titulo">
+          <img src="./Imagens/VectorFlorVerde.png" alt="Flor Verde">
+          <h1>Validador Numérico</h1>
+        </div>
+        <form id="form-numero">
+          <p>Número A</p>
+          <input type="number" id="numero-a" placeholder="Número A" />
+          <p>Número B</p>
+          <input type="number" id="numero-b" placeholder="Número B" />
+          <button id="btn-validar" type="submit">Validar</button>
+        </form>
+        <div class="mensagem-sucesso">
+          <p>
+            <b>Formulário válido!</b> <br> <br> Número B é maior que o número A.
+          </p>
+          <button id="btn-ok" type="button">OK</button>
+        </div>
+        <div class="mensagem-error">
+          <p>
+            <b>Formulário inválido!</b> <br> <br> Insira um número B  maior que o número A.
+          </p>
+          <button id="btn-okInvalido" type="button">OK</button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
