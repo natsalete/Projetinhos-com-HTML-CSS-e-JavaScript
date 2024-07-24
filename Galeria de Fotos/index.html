@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Galeria de Fotos</h1>
+      <button type="submit">Nova Imagem +</button>
+    </header>
+
+    <form action="">
+      <h2>Inserir nova imagem</h2>
+      <input type="url" required placeholder="URL da imagem" id="" />
+      <button type="submit">Adicionar</button>
+      <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul>
+      <li>
+        <img src="./images/foto1.jpg" alt="Pintura de um gato">
+        <div>
+          <a href="./images/foto1.jpg"  title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+        </div>
+      </li>
+      <li>
+        <img src="./images/foto2.jpg" alt="Flamingo">
+        <div>
+          <a href="./images/foto2.jpg"  title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+        </div>
+      </li>
+      <li>
+        <img src="./images/foto3.jpg" alt="Filhotes de cachoros">
+        <div>
+          <a href="./images/foto3.jpg"  title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+        </div>
+      </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
