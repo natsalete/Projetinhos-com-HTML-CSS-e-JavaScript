@@ -45,6 +45,44 @@ button {
   cursor: pointer;
 }
 
-#botao-cancelar{
-    background-color: red;
+#botao-cancelar {
+  background-color: red;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+ul li {
+  max-width: 25%;
+  list-style: none;
+  position: relative;
+  max-height: 280px;
+  overflow-y: hidden;
+}
+
+ul li img {
+  width: 100%;
+}
+
+.overlay-imagem-link {
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+}
+
+.overlay-imagem-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul li:hover .overlay-imagem-link {
+  opacity: 1;
 }
