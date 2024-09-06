@@ -1,4 +1,4 @@
-﻿# Projetinhos com HTML, CSS e JavaScript
+﻿# Projetinhos com HTML, CSS, JavaScript e jQuery
 
  <hr>
 
@@ -23,6 +23,12 @@ https://github.com/user-attachments/assets/75f3d2bc-72f6-430a-9dae-e9cdc2df084c
 link: https://natalia-ebac-banking-depositos.vercel.app/
 
 https://github.com/natsalete/Integracao-do-HTML-com-JavaScript/assets/135389319/db1417b4-d032-4b9e-9207-fdeaf339db9a
+
+<hr>
+
+## Galeria de fotos
+
+link: https://natalia-jquery-galeria-de-fotos.vercel.app/
 
 <hr>
 
