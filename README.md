@@ -26,6 +26,14 @@ https://github.com/natsalete/Integracao-do-HTML-com-JavaScript/assets/135389319/
 
 <hr>
 
+## EBAC Motors
+
+link: https://natalia-ebac-motors.vercel.app/
+
+https://github.com/user-attachments/assets/ce17b17d-4041-405e-8cc1-bca037564637
+
+<hr>
+
 ## Galeria de fotos
 
 link: https://natalia-jquery-galeria-de-fotos.vercel.app/
