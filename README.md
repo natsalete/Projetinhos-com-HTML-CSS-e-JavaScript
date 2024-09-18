@@ -30,6 +30,9 @@ https://github.com/natsalete/Integracao-do-HTML-com-JavaScript/assets/135389319/
 
 link: https://natalia-jquery-galeria-de-fotos.vercel.app/
 
+https://github.com/user-attachments/assets/dea8a711-95ad-4d4f-a29c-ce33cf48fb82
+
+
 <hr>
 
 ## Validador Numerico
@@ -37,6 +40,10 @@ link: https://natalia-jquery-galeria-de-fotos.vercel.app/
 link:https://natalia-validador-numerico.vercel.app/
 
 https://github.com/user-attachments/assets/5e4e835f-cde5-4376-ae10-9dbef935ee58
+
+
+
+
 
 
 
