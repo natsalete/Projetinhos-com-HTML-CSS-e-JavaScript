@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY TO DO LIST</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>MY TO DO LIST</h1>
+      </header>
+      <form action="">
+        <input
+          type="text"
+          required
+          placeholder="Ex:Desligar o ar"
+          id="novaTarefa"
+        />
+        <button type="submit">Salvar</button>
+      </form>
+      <div class="cont-tarefas">
+        <div class="cont-tarefas-feitas">
+          <p>Tarefas feitas: <span id="contador-feitas">0</span></p>
+        </div>
+        <div class="cont-tarefas-andamento">
+          <p>Tarefas em andamento: <span id="contador-andamento">0</span></p>
+        </div>
+      </div>
+      <div class="lista-tarefas">
+        <ul>
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
