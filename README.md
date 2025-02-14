@@ -58,7 +58,10 @@ link:https://natalia-validador-numerico.vercel.app/
 https://github.com/user-attachments/assets/5e4e835f-cde5-4376-ae10-9dbef935ee58
 
 
+## Licença
 
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+---
 
 
 
